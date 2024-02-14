@@ -1,0 +1,76 @@
+.landing-page{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    margin-top: -20px;
+    background-color: rgba(90, 192, 213, 0.32);
+    margin-bottom: 100px;
+
+    .lhs{
+        width: 50%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 100px;
+
+        h1{
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        .landing-btns{
+            display: flex;
+            width: 100%;
+            margin-top: 50px;
+            gap: 50px;
+            button{
+                background-color: white;
+                padding: 10px 20px;
+                border: none;
+                font-size: 1rem;
+                font-weight: 700;
+
+            }
+            .getAppt{
+                background-color: rgb(15, 101, 121);
+                color: white;
+            }
+            .giveUsCall{
+                img{
+                    margin-right: 10px;
+                    width: 25px;
+                    aspect-ratio: 1/1;
+                }
+            }
+        }
+    }
+
+    .rhs{
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        width: 30%;
+        margin-top:30px;
+        height: 550px;
+        margin-right: 100px;
+        background-color: rgb(15, 101, 121);
+        right: 0;
+        object-position:left;
+        img{
+            height: 90%;
+            width: 130%;
+            transform: scaleX(-1);
+        }
+    }
+}
+
+.body{
+    .body-title{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+}
